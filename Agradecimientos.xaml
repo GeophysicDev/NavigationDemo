@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App0.Agradecimientos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Gracias por contestar la encuesta!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Regresar a la página principal" Clicked="RegresaralInicio"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
